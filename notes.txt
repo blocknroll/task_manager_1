@@ -1,0 +1,3 @@
+https://github.com/JumpstartLab/curriculum/blob/master/source/projects/task_manager.markdown
+
+http://tutorials.jumpstartlab.com/projects/task_manager.html
