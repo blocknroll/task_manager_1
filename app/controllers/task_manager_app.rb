@@ -1,3 +1,5 @@
+require 'models/task_manager'
+
 class TaskManagerApp < Sinatra::Base
   set :root, File.join(File.dirname(__FILE__), "..")
 
@@ -6,7 +8,7 @@ class TaskManagerApp < Sinatra::Base
   end
 
   get '/tasks' do
-    @tasks = ["task1", "task2", "task3"]
+    @tasks = TaskManager.all
     erb :index
   end
 
@@ -15,8 +17,14 @@ class TaskManagerApp < Sinatra::Base
   end
 
   post '/tasks' do
-    p "Here are all of the params: #{params}"
-    p "Here are all the task params: #{params[:task]}"
+    # "<p>Params: #{params}</p> <p>Task params: #{params[:task]}</p>"
+    TaskManager.create(params[:task])
+    redirect '/tasks'
+  end
+
+  get '/tasks/:id' do |id|
+    @task = TaskManager.find(id.to_i)
+    erb :show
   end
 
 end
