@@ -1,3 +1,21 @@
 https://github.com/JumpstartLab/curriculum/blob/master/source/projects/task_manager.markdown
 
 http://tutorials.jumpstartlab.com/projects/task_manager.html
+
+
+TODO:
+  DONE: Center the .container div
+  DONE: Remove underlines from all hyperlinks
+  DONE: Change the style of the hyperlinks when a mouse hovers over them
+  DONE: Create a horizontal navbar on the top of the page that contains links to all tasks and create task
+  DONE: Style the individual tasks in separate divs
+
+  DONE:  Design a landing page ('/')
+
+  Add a footer with your name and a link to your repo on Github
+
+
+  Extensions
+
+  Gradually transition the color of a hyperlink when a mouse hovers over it
+  Make the page responsive to different screen sizes (desktop, tablet, mobile)
