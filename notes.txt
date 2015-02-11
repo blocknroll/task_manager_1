@@ -19,3 +19,17 @@ TODO:
 
   Gradually transition the color of a hyperlink when a mouse hovers over it
   Make the page responsive to different screen sizes (desktop, tablet, mobile)
+
+
+
+layout.erb renders the html
+the html thinks it lives in the public folder
+from there, the html looks through the public folder for:
+  fonts
+  img
+  css
+  js
+
+
+
+must use '.transaction' to get into database
