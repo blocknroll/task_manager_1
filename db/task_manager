@@ -2,17 +2,17 @@
 tasks:
 - id: 1
   title: task1
-  description: learn
-- id: 2
-  title: task2
-  description: do stuff
+  description: learn more stuff!
 - id: 3
   title: task3
   description: code stuff
-- id: 4
-  title: task4
-  description: fix bugs
 - id: 5
-  title: bootstrap
+  title: bootstrapper
   description: pull boot on
-total: 5
+- id: 6
+  title: work
+  description: harder
+- id: 7
+  title: testing
+  description: test
+total: 7

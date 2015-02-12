@@ -2,6 +2,9 @@ https://github.com/JumpstartLab/curriculum/blob/master/source/projects/task_mana
 
 http://tutorials.jumpstartlab.com/projects/task_manager.html
 
+testing:
+https://github.com/turingschool/lesson_plans/blob/master/ruby_02-web_applications_with_ruby/model_testing_in_sinatra.markdown
+
 
 TODO:
   DONE: Center the .container div
@@ -19,3 +22,30 @@ TODO:
 
   Gradually transition the color of a hyperlink when a mouse hovers over it
   Make the page responsive to different screen sizes (desktop, tablet, mobile)
+
+
+
+layout.erb renders the html
+the html thinks it lives in the public folder
+from there, the html looks through the public folder for:
+  fonts
+  img
+  css
+  js
+
+
+
+must use '.transaction' to get into database
+
+
+
+# TESTING
+# ==========================================
+
+class TaskManagerApp < Sinatra::Base
+  set :method_override, true
+  set :root, APP_ROOT.to_path
+  set :views, File.join(TaskManagerApp.root, "app", "views")
+  # :public_folder is required for Sinatra
+  set :public_folder, File.join(TaskManagerApp.root, "app", "public")
+end
