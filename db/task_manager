@@ -2,7 +2,7 @@
 tasks:
 - id: 1
   title: task1
-  description: learn stuff
+  description: learn more stuff!
 - id: 3
   title: task3
   description: code stuff
@@ -12,4 +12,7 @@ tasks:
 - id: 6
   title: work
   description: harder
-total: 6
+- id: 7
+  title: testing
+  description: test
+total: 7
