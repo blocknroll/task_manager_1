@@ -1,18 +1,18 @@
 ---
 tasks:
 - id: 1
-  title: task1
-  description: learn more stuff!
+  title: learn all the things
+  description: "ruby\r\njs\r\ntesting\r\nsinatra\r\nrails"
 - id: 3
-  title: task3
-  description: code stuff
+  title: code stuff
+  description: lots of stuff
 - id: 5
-  title: bootstrapper
-  description: pull boot on
+  title: trim bootstrapper gunk
+  description: divitis
 - id: 6
   title: work
   description: harder
 - id: 7
-  title: testing
+  title: capybara testing
   description: test
-total: 7
+total: 8
