@@ -10,9 +10,12 @@ tasks:
   title: trim bootstrapper gunk
   description: divitis
 - id: 6
-  title: work
+  title: work super super hard
   description: harder
 - id: 7
   title: capybara testing
   description: test
-total: 8
+- id: 9
+  title: drink tons of smoothies
+  description: energy
+total: 9
