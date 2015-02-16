@@ -1,9 +1,9 @@
 require_relative '../test_helper'
 
-class UserEditsTaskTest < FeatureTest
+class UserDeletesTaskTest < FeatureTest
 
   def test_user_deletes_a_task
-    TaskManager.create({:title => "original title",
+    TaskManager.create({:title       => "original title",
                         :description => "original description"} )
     visit '/tasks'
     assert page.has_content?("original title")
