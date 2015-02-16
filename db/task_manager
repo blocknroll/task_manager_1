@@ -10,7 +10,7 @@ tasks:
   title: trim bootstrapper gunk
   description: divitis
 - id: 6
-  title: work
+  title: work hard
   description: harder
 - id: 7
   title: capybara testing
